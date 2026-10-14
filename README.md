@@ -1,6 +1,6 @@
 # Hi there, I'm Alp Salgür 👋
 
-**Electrical Engineering & Computer Science Graduate | Systems & Automation Engineer**
+**Electrical Engineering & Computer Science Graduate**
 
 Graduate of **Czech Technical University in Prague (ČVUT)** with a strong background in hardware-software integration, system engineering, automation, and data analysis. Experienced in real-time sensor validation, LiDAR point cloud processing, and precision instrument automation.
 
