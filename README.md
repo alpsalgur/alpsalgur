@@ -1,4 +1,4 @@
-# Hi there, I'm Alp Salgür 👋
+# Alp Salgür Professional Summary
 
 **Electrical Engineering & Computer Science Graduate**
 
