@@ -26,7 +26,23 @@ Graduate of **Czech Technical University in Prague (ČVUT)** with a strong backg
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
+
+### 📊 [E-Commerce Customer & Revenue Intelligence Platform](https://github.com/alpsalgur/ecommerce-customer-intelligence)
+**End-to-End Business Analytics & Machine Learning Pipeline** built on the Olist Brazilian E-Commerce relational dataset (**99,441 orders**, **9 relational tables**, **R$ 15.4M+ revenue**).
+- **Advanced SQL & Relational ETL:** Automated CSV-to-SQLite ETL (`SQLAlchemy`) with 6 materialized analytical/ML tables. Complex SQL using CTEs, Window Functions (`NTILE`, `FIRST_VALUE`, `PARTITION BY`), and Julian Date Arithmetic for **RFM Segmentation** (identifying **R$ 4.23M** in high-value churn exposure across 13,739 at-risk buyers), **Cohort Retention**, and **Logistics KPIs** (uncovering the **"4-Day Delivery Delay" satisfaction cliff** where ratings drop from 3.77★ to 2.32★).
+- **Predictive ML & Explainable AI:** Cost-sensitive **XGBoost Detractor Classifier** (`scale_pos_weight = 6.78` on 76,658 orders) achieving **0.7537 ROC-AUC** and **53.94% Recall** purely from pre-review logistics metadata, paired with native **TreeSHAP** log-odds feature attribution (`delivery_delay_days`, `actual_shipping_days`, `item_count`).
+- **Probabilistic CLV & BI Simulator:** 90-day Customer Lifetime Value (`clv_90d`) and `prob_alive` forecasting via **BG/NBD & Gamma-Gamma** (`lifetimes`), served through a containerized 3-tab **Streamlit & Plotly** executive dashboard with an interactive **Financial ROI Simulator** and automated `pytest` quality gates.
+- **Tech Stack:** `Python` · `SQLite` · `SQLAlchemy` · `XGBoost` · `TreeSHAP` · `Lifetimes` · `Scikit-Learn` · `Streamlit` · `Plotly` · `Docker` · `Pytest`
+
+
+### 🎯 [LidarLab](https://github.com/alpsalgur/lidarlab)
+**Desktop 3D LiDAR Point Cloud Viewer, Multi-Echo Filter Pipeline & Python Scripting Environment** for frame-by-frame `.npz` test runs.
+- **Real-Time 3D Playback & Split-View Inspection:** Built with **PySide6 (Qt 6)** and **VTK (PyVista)** featuring background frame pre-loading, synchronized-camera **Split View** (raw vs. filtered point clouds with removed-point highlighting), sensor-locked 3D box selection across frames, pre/post-pipeline field histograms, and a run-wide per-frame metric strip.
+- **Multi-Threaded Denoising & Adverse Weather Filtering:** **12 built-in filters** with live sliders running ahead of the playhead in background threads: multi-echo filtering (cover echo & weak first-echo rain/spray removal), **SOR / ROR / DROR / DSOR / LIOR** outlier removal, **RANSAC** ground plane segmentation, and roll/pitch leveling. Removes **94–96% of rain and spray** at **93–94% precision** on labeled multi-echo datasets.
+- **Zero-Copy IPython Integration & Batch CLI:** Embedded **IPython console** and script editor with zero-copy NumPy frame access, custom decorators (`@lab.step`, `@lab.filter`, `@view.highlight`), and VS Code hot-reload. Includes a multi-process CLI (`lidarlab-cli.exe`) exporting 600-frame runs (~300k pts/frame) in ~90s (**6.8 FPS**) to `.npz`, `PLY`, or `PCD`, converters for **KITTI**, **Boreas**, and **WADS**, plus a standalone Windows installer (**PyInstaller** + **Inno Setup**).
+- **Tech Stack:** `Python 3.11+` · `PySide6 (Qt 6)` · `VTK / PyVista` · `IPython` · `NumPy` · `SciPy` · `PyInstaller` · `Inno Setup` · `Pytest`
+
 
 ### 🔬 [Power and Wavelength Automation of a Tunable Laser](https://github.com/alpsalgur/Laser-Power-Stabilization)
 *Bachelor's Thesis @ Czech Technical University (Nominated for Werner von Siemens Award)*
