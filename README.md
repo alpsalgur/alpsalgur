@@ -58,6 +58,7 @@ Graduate of **Czech Technical University in Prague (ČVUT)** with a strong backg
 * Conducted advanced LiDAR point cloud analysis and sensor accuracy validation using Paraview, Scalaview, and BMW's LidarViewer.
 * Engineered Python filtering scripts (noise suppression, echo filtering) to optimize raw point cloud pipelines.
 * Developed custom Python APIs to automate workflows within the CoreALM infrastructure.
+* Maintained and updated system-level requirements using IBM Rational DOORS, ensuring accurate specification tracking and documentation alignment across LiDAR R&D workflows.
 
 ---
 
